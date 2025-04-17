@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/kennethdait/omnitool#readme",
   "devDependencies": {
-    "@google/clasp": "^3.0.3-alpha"
+    "@google/clasp": "^3.0.3-alpha",
+    "@types/google-apps-script": "^1.0.97"
   }
 }
