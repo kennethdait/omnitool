@@ -1,3 +1,3 @@
-# omnitool
-transfer center workflows/automation
-[![clasp](https://img.shields.io/badge/built%20with-clasp-4285f4.svg)](https://github.com/google/clasp)
+# omnitool [![clasp](https://img.shields.io/badge/built%20with-clasp-4285f4.svg)](https://github.com/google/clasp)
+
+> transfer center workflows/automation
