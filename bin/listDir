@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+  
+hr () {
+	local delim='.' 
+	local hrstr='' 
+	if (( $# > 0 ))
+	then
+		delim="${1:0:1}" 
+	fi
+	for ((c = 0; c < ${COLUMNS:-$(tput cols)}; c++ )) do
+		hrstr+="${delim:0:1}" 
+	done
+	printf '%s\n' "$hrstr"
+}
+
+treeCommand () { 
+	/opt/homebrew/bin/tree -a -C -I ".git" -I "node_modules" --noreport ~/Code/omnitool;
+}
+
+clear;
+echo;
+hr;
+git status;
+echo;
+treeCommand;
+hr
+
+# vim: ai nu ts=2 sw=2 sts=2 fdm=indent
