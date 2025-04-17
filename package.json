@@ -1,0 +1,31 @@
+{
+  "name": "omnitool",
+  "version": "1.0.0",
+  "description": "transfer center workflows/automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kennethdait/omnitool.git"
+  },
+  "keywords": [
+    "google-apps-script",
+    "javascript",
+    "clasp",
+    "react",
+    "parcel",
+    "node",
+    "google-sheets"
+  ],
+  "author": "Ken Dait",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kennethdait/omnitool/issues"
+  },
+  "homepage": "https://github.com/kennethdait/omnitool#readme",
+  "devDependencies": {
+    "@google/clasp": "^3.0.3-alpha"
+  }
+}
